@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <main className="h-screen font-workSans hero-bg py-[32%] px-[5%] sm:py-[8%] xl:px-[31%]">
 
-      <div className=" bg-white rounded-xl px-7 pt-10">
+      <div className=" bg-white rounded-xl px-7 pt-10 drop-shadow-lg">
+
 
         <span className="flex flex-row pt-5 pb-7">
           <Image src={"/images/icon-star.svg"}

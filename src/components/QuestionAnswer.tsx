@@ -14,7 +14,7 @@ const QuestionAnswer = ({ question, children }: Props) => {
 	return (
 		<div className="pb-7">
 			<span className="flex flex-row justify-between mt-8" onClick={() => setReveal(!reveal)}>
-				<h2 className={"text-dark-purple font-semibold hover:text-purpl-ish text-xl"}>
+				<h2 className={"text-dark-purple font-semibold hover:text-purpl-ish text-lg"}>
 					{question}
 				</h2>
 				{!reveal ? <Image src="/images/icon-plus.svg" alt="Icon Plus" width={36} height={36} /> :
