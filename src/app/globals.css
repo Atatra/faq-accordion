@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-bg {
+  background-image: url("../../public/images/background-pattern-mobile.svg");
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 640px) {
+  .hero-bg {
+    background-image: url("../../public/images/background-pattern-desktop.svg");
+  }
+}
