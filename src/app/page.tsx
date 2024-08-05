@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Home() {
 
   return (
-    <main className="h-screen font-workSans hero-bg py-[32%] px-[5%] sm:py-[8%] xl:px-[31%]">
+    <main className="h-screen font-workSans hero-bg py-[32%] px-[5%] sm:py-[8%] xl:px-[28%]">
 
-      <div className=" bg-white rounded-xl px-7 pt-10 drop-shadow-lg">
+      <div className=" bg-white rounded-xl px-7 pt-10 drop-shadow-2xl">
 
 
         <span className="flex flex-row pt-5 pb-7">

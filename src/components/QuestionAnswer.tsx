@@ -17,8 +17,8 @@ const QuestionAnswer = ({ question, children }: Props) => {
 				<h2 className={"text-dark-purple font-semibold hover:text-purpl-ish text-lg"}>
 					{question}
 				</h2>
-				{!reveal ? <Image src="/images/icon-plus.svg" alt="Icon Plus" width={36} height={36} /> :
-					<Image src="/images/icon-minus.svg" alt="Icon Minus" width={36} height={36} />}
+				{!reveal ? <Image src="/images/icon-plus.svg" alt="Icon Plus" width={28} height={28} /> :
+					<Image src="/images/icon-minus.svg" alt="Icon Minus" width={28} height={28} />}
 			</span>
 			{reveal && <p className="text-grayish-purple pt-4">
 				{children}
