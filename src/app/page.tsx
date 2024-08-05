@@ -19,7 +19,7 @@ export default function Home() {
 
         >
           Frontend Mentor offers realistic coding challenges to help developers improve
-          their frontend coding skills with projects in HTML, CSS, and JavaScript. It's
+          their frontend coding skills with projects in HTML, CSS, and JavaScript. It&apos;s
           suitable for all levels and ideal for portfolio building.
         </QuestionAnswer>
 
@@ -38,16 +38,16 @@ export default function Home() {
           question="Can I use Frontend Mentor projects in my portfolio?"
         >
           Yes, you can use projects completed on Frontend Mentor in your portfolio.
-          It's an excellent way to showcase your skills to potential employers!
+          It&apos;s an excellent way to showcase your skills to potential employers!
         </QuestionAnswer>
 
         <hr />
 
         <QuestionAnswer
-          question="How can I get help if I'm stuck on a Frontend Mentor challenge?"
+          question="How can I get help if I&apos;m stuck on a Frontend Mentor challenge?"
         >
-          The best place to get help is inside Frontend Mentor's Discord community.
-          There's a help channel where you can ask questions and seek support from other
+          The best place to get help is inside Frontend Mentor&apos;s Discord community.
+          There&apos;s a help channel where you can ask questions and seek support from other
           community members.
         </QuestionAnswer>
 
